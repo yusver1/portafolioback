@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = {"https://portafolioback-production-9df7.up.railway.app"})
+@CrossOrigin(origins = {"http://localhost:8080"})
 @RequestMapping("/skill")
 public class CHys {
 

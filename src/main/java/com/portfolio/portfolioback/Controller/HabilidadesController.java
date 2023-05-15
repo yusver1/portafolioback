@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@CrossOrigin("*")
+@CrossOrigin("http://localhost:8080")
 //@RequestMapping("/api")
 public class HabilidadesController {
 
